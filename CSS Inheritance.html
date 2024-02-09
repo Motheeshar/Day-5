@@ -1,0 +1,65 @@
+<!--Challenge 1: Add style properties to the body, which can be inherited by the child elements of the body. 
+  
+  Challenge 2: Add style properties to the body which can not be inherited by the child element of the body
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Inheritance</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <style>
+/* Challenge 1: Add style properties to the body, which can be inherited by the child elements of the body. */
+/* properties that would inherited by the child element */
+
+body{
+  color:maroon;
+  direction: rtl;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size:larger;
+  font-style:italic;
+  font-variant: small-caps;
+  letter-spacing:4px;
+  text-align: center;
+  word-spacing: 50px;
+}
+
+/* Challenge 2: Add style properties to the body which can not be inherited by the child element of the body */
+/* properties that would not inherited by the child element */
+/* Challenge 1: Add style properties to the body, which can be inherited by the child elements of the body. */
+/* properties that would inherited by the child element */
+
+body{
+  color:rgb(0, 26, 128);
+  direction: rtl;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size:larger;
+  font-style:italic;
+  font-variant: small-caps;
+  letter-spacing:5px;
+  text-align: center;
+  word-spacing: 50px;
+}
+
+/* Challenge 2: Add style properties to the body which can not be inherited by the child element of the body */
+/* properties that would not inherited by the child element */
+body{
+  margin-top: 50px;
+  margin-left: 50px;
+  border: 5px solid rgb(255, 0, 0);
+  
+}
+  </style>
+
+  <body>
+    <h1>CSS Inheritance</h1>
+    <p>
+    In CSS, inheritance controls what happens when no value is specified for a property on an element. CSS properties can be categorized in two types: inherited properties, which by default are set to the computed value of the parent element.
+    </p>
+    
+  </body>
+</html>
